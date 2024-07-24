@@ -1,3 +1,2 @@
 nombre = input("Por favor, ingresa tu nombre: ")
-
-print(f"Bienvenido, {nombre}, al mundo de Python!")
+print(f"Buenos dias estrellitas y, {nombre}, la tierra les  dice Holaaaa!")
