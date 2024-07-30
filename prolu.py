@@ -13,7 +13,7 @@ class ETLGUI:
         # Widgets
         self.folder_path = tk.StringVar()
         self.folder_label = tk.Label(master, text="Carpeta de datos:")
-        self.folder_entry = tk.Entry(master, textvariable=self.folder_path, width=50)
+        self.foldr_entry = tk.Entry(master, textvariable=self.folder_path, width=50)
         self.folder_button = tk.Button(master, text="Seleccionar", command=self.select_folder)
 
         self.col_range_label = tk.Label(master, text="Rango de columnas (ej. A:D):")
